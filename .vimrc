@@ -1,4 +1,11 @@
-set nu
+set tabstop=4 
+set softtabstop=4 
+set shiftwidth=4 
+set noexpandtab 
+set nu  
+set autoindent 
+set cindent
+
 set nocompatible               " be iMproved  
 filetype off                   " required!       /**  从这行开始，vimrc配置 **/  
   
@@ -31,8 +38,7 @@ let g:pymode_trim_whitespaces = 1
 let g:pymode_indent = 1
 let g:pymode_folding = 0
 let g:pymode_virtualenv = 1
-
-
+"""
 
 Bundle 'https://github.com/vim-scripts/c.vim.git'
 
