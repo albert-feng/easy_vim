@@ -5,13 +5,15 @@ set noexpandtab
 set nu  
 set autoindent 
 set cindent
+set laststatus=2
+set encoding=utf-8
+set t_Co=256
 
 set nocompatible               " be iMproved  
 filetype off                   " required!       /**  从这行开始，vimrc配置 **/  
   
 set rtp+=~/.vim/bundle/vundle/  
 call vundle#begin()  
-set t_Co=256
   
 " let Vundle manage Vundle  
 " required!   
@@ -41,6 +43,8 @@ let g:pymode_virtualenv = 1
 """
 
 Bundle 'https://github.com/vim-scripts/c.vim.git'
+
+Bundle 'https://github.com/Lokaltog/vim-powerline.git'
 
 call vundle#end()
 filetype plugin indent on 
