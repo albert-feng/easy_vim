@@ -49,8 +49,10 @@ let g:pymode_rope_completion = 0
 """
 
 Bundle 'https://github.com/vim-scripts/c.vim.git'
-Bundle 'https://github.com/Lokaltog/vim-powerline.git'
+
+Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 let g:Powerline_symbols = 'fancy'
+
 
 call vundle#end()
 filetype plugin indent on 
