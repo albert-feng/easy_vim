@@ -58,6 +58,7 @@ Plugin 'https://github.com/vim-scripts/c.vim.git'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 let g:Powerline_symbols = 'fancy'
 
+highlight Search term=reverse cterm=reverse ctermfg=102 ctermbg=237
 
 call vundle#end()
 filetype plugin indent on 
