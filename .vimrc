@@ -31,6 +31,7 @@ Plugin 'git://git.wincent.com/command-t.git'
 " config nerdtree
 Plugin 'https://github.com/scrooloose/nerdtree.git'
 map nt :NERDTree
+let NERDTreeIgnore=['\.pyc$']
 "
 
 Plugin 'https://github.com/jistr/vim-nerdtree-tabs.git'
