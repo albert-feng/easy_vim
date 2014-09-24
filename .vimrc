@@ -8,8 +8,8 @@ set cindent
 set laststatus=2
 set encoding=utf-8
 set t_Co=256
-map bf :buffer
 syntax enable
+map bf :buffer
 
 set nocompatible               " be iMproved  
 filetype off                   " required!       /**  从这行开始，vimrc配置 **/  
@@ -52,6 +52,8 @@ let g:pymode_indent = 1
 let g:pymode_folding = 0
 let g:pymode_virtualenv = 1
 let g:pymode_rope_completion = 0
+let g:pymode_run = 1
+let g:pymode_run_bind = 'ru'
 """
 
 Plugin 'https://github.com/vim-scripts/c.vim.git'
