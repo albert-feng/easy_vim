@@ -10,9 +10,10 @@ set encoding=utf-8
 set t_Co=256
 syntax enable
 map bf :buffer
+map nh :nohls
 
-set nocompatible               " be iMproved  
-filetype off                   " required!       /**  从这行开始，vimrc配置 **/  
+set nocompatible               " be iMproved
+filetype off                   " required!
   
 set rtp+=~/.vim/bundle/Vundle.vim/  
 call vundle#begin()  
@@ -44,17 +45,13 @@ Plugin 'https://github.com/sickill/vim-monokai.git'
 colorscheme monokai
 "
 
-""" config python mode
+" config python mode
 Plugin 'https://github.com/klen/python-mode.git'
-let g:pymode_warnings = 1
-let g:pymode_trim_whitespaces = 1
-let g:pymode_indent = 1
 let g:pymode_folding = 0
-let g:pymode_virtualenv = 1
 let g:pymode_rope_completion = 0
-let g:pymode_run = 1
 let g:pymode_run_bind = 'ru'
-"""
+let g:pymode_rope_goto_definition_cmd = 'e'
+"
 
 Plugin 'https://github.com/vim-scripts/c.vim.git'
 
