@@ -8,6 +8,7 @@ set cindent
 set laststatus=2
 set encoding=utf-8
 set t_Co=256
+set backspace=indent,eol,start
 syntax enable
 map bf :buffer
 map nh :nohls
