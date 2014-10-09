@@ -28,7 +28,6 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'tpope/vim-rails.git'  
 Plugin 'L9'  
 Plugin 'FuzzyFinder'  
-Plugin 'git://git.wincent.com/command-t.git'
 
 " config nerdtree
 Plugin 'https://github.com/scrooloose/nerdtree.git'
