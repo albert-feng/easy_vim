@@ -21,13 +21,9 @@ call vundle#begin()
   
 " let Vundle manage Vundle  
 " required!   
-Plugin 'gmarik/Vundle.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'Lokaltog/vim-easymotion'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}  
-Plugin 'tpope/vim-rails.git'  
-Plugin 'L9'  
-Plugin 'FuzzyFinder'  
+Plugin 'https://github.com/VundleVim/Vundle.vim.git'
+Plugin 'https://github.com/tpope/vim-fugitive.git'
+Plugin 'https://github.com/easymotion/vim-easymotion.git'
 
 " config nerdtree
 Plugin 'https://github.com/scrooloose/nerdtree.git'
@@ -53,8 +49,6 @@ let g:pymode_run_bind = 'ru'
 let g:pymode_rope_goto_definition_cmd = 'e'
 let g:pymode_rope = 0
 "
-
-Plugin 'https://github.com/vim-scripts/c.vim.git'
 
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 let g:Powerline_symbols = 'fancy'

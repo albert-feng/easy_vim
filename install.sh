@@ -6,7 +6,7 @@ then
 	rm -rf $VUNDLE_PATH
 fi
 
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp ./.vimrc ~
 mkdir -p ~/.vim/colors
 touch ~/.vim/colors/monokai.vim
