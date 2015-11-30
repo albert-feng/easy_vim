@@ -48,6 +48,7 @@ let g:pymode_rope_completion = 0
 let g:pymode_run_bind = 'ru'
 let g:pymode_rope_goto_definition_cmd = 'e'
 let g:pymode_rope = 0
+let g:pymode_options_max_line_length = 120
 "
 
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
