@@ -36,11 +36,6 @@ Plugin 'https://github.com/scrooloose/syntastic.git'
 Plugin 'https://github.com/ervandew/supertab.git'
 Plugin 'https://github.com/godlygeek/csapprox.git'
 
-"
-Plugin 'https://github.com/sickill/vim-monokai.git'
-colorscheme monokai
-"
-
 " config python mode
 Plugin 'https://github.com/klen/python-mode.git'
 let g:pymode_folding = 0
