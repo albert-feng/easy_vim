@@ -9,7 +9,7 @@ set laststatus=2
 set encoding=utf-8
 set t_Co=256
 set backspace=indent,eol,start
-syntax enable
+syntax on
 map bf :buffer
 map nh :nohls
 
@@ -36,6 +36,11 @@ Plugin 'https://github.com/scrooloose/syntastic.git'
 Plugin 'https://github.com/ervandew/supertab.git'
 Plugin 'https://github.com/godlygeek/csapprox.git'
 
+" theme
+Plugin 'zenorocha/dracula-theme', {'rtp': 'vim/'}
+color dracula
+"
+
 " config python mode
 Plugin 'https://github.com/klen/python-mode.git'
 let g:pymode_folding = 0
@@ -50,9 +55,6 @@ let g:pymode_rope_autoimport = 0
 
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 let g:Powerline_symbols = 'fancy'
-
-highlight Search term=reverse cterm=reverse ctermfg=102 ctermbg=237
-set hls
 
 call vundle#end()
 filetype plugin indent on 
