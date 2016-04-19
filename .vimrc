@@ -36,10 +36,6 @@ Plugin 'https://github.com/scrooloose/syntastic.git'
 Plugin 'https://github.com/ervandew/supertab.git'
 Plugin 'https://github.com/godlygeek/csapprox.git'
 
-" theme
-Plugin 'zenorocha/dracula-theme', {'rtp': 'vim/'}
-color dracula
-"
 
 " config python mode
 Plugin 'https://github.com/klen/python-mode.git'
