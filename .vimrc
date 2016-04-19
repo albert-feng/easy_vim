@@ -7,9 +7,9 @@ set autoindent
 set cindent
 set laststatus=2
 set encoding=utf-8
-set t_Co=256
+"set t_Co=256
 set backspace=indent,eol,start
-syntax on
+syntax enable
 map bf :buffer
 map nh :nohls
 
@@ -34,7 +34,6 @@ let NERDTreeIgnore=['\.pyc$','\.pyo$']
 Plugin 'https://github.com/jistr/vim-nerdtree-tabs.git'
 Plugin 'https://github.com/scrooloose/syntastic.git'
 Plugin 'https://github.com/ervandew/supertab.git'
-Plugin 'https://github.com/godlygeek/csapprox.git'
 
 
 " config python mode
