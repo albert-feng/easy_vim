@@ -7,7 +7,7 @@ set autoindent
 set cindent
 set laststatus=2
 set encoding=utf-8
-"set t_Co=256
+set t_Co=256
 set backspace=indent,eol,start
 syntax enable
 map bf :buffer
@@ -48,7 +48,10 @@ let g:pymode_options_max_line_length = 120
 let g:pymode_rope_autoimport = 0
 "
 
-Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'https://github.com/sickill/vim-monokai.git'
+colorscheme monokai
+
+Plugin 'https://github.com/powerline/powerline.git', {'rtp': 'powerline/bindings/vim/'}
 let g:Powerline_symbols = 'fancy'
 
 call vundle#end()
