@@ -37,7 +37,7 @@ Plugin 'https://github.com/ervandew/supertab.git'
 
 
 " config python mode
-Plugin 'https://github.com/klen/python-mode.git'
+Plugin 'https://github.com/python-mode/python-mode.git'
 let g:pymode_folding = 0
 let g:pymode_rope_completion = 0
 let g:pymode_run_bind = 'ru'
