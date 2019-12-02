@@ -29,12 +29,10 @@ Plugin 'https://github.com/easymotion/vim-easymotion.git'
 Plugin 'https://github.com/scrooloose/nerdtree.git'
 map nt :NERDTree
 let NERDTreeIgnore=['\.pyc$','\.pyo$']
-"
 
 Plugin 'https://github.com/jistr/vim-nerdtree-tabs.git'
 Plugin 'https://github.com/scrooloose/syntastic.git'
 Plugin 'https://github.com/ervandew/supertab.git'
-
 
 " config python mode
 Plugin 'https://github.com/python-mode/python-mode.git'
@@ -46,7 +44,6 @@ let g:pymode_lint = 0
 let g:pymode_rope = 0
 let g:pymode_options_max_line_length = 120
 let g:pymode_rope_autoimport = 0
-"
 
 Plugin 'https://github.com/sickill/vim-monokai.git'
 colorscheme monokai
